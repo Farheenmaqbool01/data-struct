@@ -8,9 +8,9 @@ int main()
 	printf("enter the value of elements");
 	for(i=0;i<n;i++)
 	scanf("%d",&A[i]);
-	for(i=0;i<n;i++)
+	for(i=0;i<n-1;i++)
 	{
-	for(j=1;j<n-i;j++)
+	for(j=i+1;j<n;j++)
 	{
 		if(A[j]<A[pos])
 		{
